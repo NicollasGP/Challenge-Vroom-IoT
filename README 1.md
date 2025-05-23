@@ -1,8 +1,22 @@
 ~~~~# 🚀 Challenge Vroom IoT
 
-Este repositório contém o projeto **Vroom IoT**, desenvolvido como parte de um desafio prático. A solução combina simulação no Wokwi, automação com Node-RED e um pitch demonstrando a aplicação da tecnologia.
+Solução desenvolvida como parte do desafio Vroom IoT, com foco na organização e segurança de pátios de motocicletas da empresa Mottu. A proposta envolve o uso de tags inteligentes simuladas no Wokwi, integração com Node-RED e um dashboard interativo.
 
 ---
+
+## 📍 Visão Geral
+O sistema simula o funcionamento de uma tag inteligente com:
+
+- LED RGB que muda de cor a cada clique no botão.
+- Buzzer que emite sons diferentes conforme a cor.
+- Comportamento de desligamento ao pressionar continuamente o botão.
+- Esses eventos são enviados para o Node-RED, onde são processados e exibidos em tempo real em um dashboard interativo.
+
+## 🛠 Tecnologias Utilizadas
+- ESP32 (Wokwi Simulator) – Simulação do hardware da tag inteligente.
+- Node-RED – Processamento e roteamento dos dados da tag.
+- Node-RED Dashboard – Visualização em tempo real dos dados da tag.
+- MQTT (simulado no Wokwi) – Comunicação entre o dispositivo e o servidor.
 
 ## 🔌 Projeto no Wokwi
 
