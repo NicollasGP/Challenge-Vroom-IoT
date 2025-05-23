@@ -14,7 +14,7 @@ Acesse a simulação diretamente pelo link:
 ## 📦 Node-RED
 
 - ⚠️ **É necessário instalar o pacote `node-red-dashboard` no Node-RED.**
-- 🗂️ O fluxo está disponível no arquivo `node-red-iot.json` deste repositório.
+- 🗂️ O fluxo está disponível no arquivo `vroom.json` deste repositório.
 - 📊 Acesse o dashboard em:  
   👉 [http://localhost:1880/ui](http://localhost:1880/ui)
 
@@ -39,7 +39,8 @@ Acesse a simulação diretamente pelo link:
 ## 📁 Estrutura do Projeto
 
 - `codigo-fonte-wokwi/` – Código da simulação IoT no Wokwi
-- `node-red-iot.json` – Fluxo do Node-RED exportado
+- `vroom.json` – Fluxo do Node-RED exportado
+- `dashboard` – Interface
 - `README.md` – Este arquivo
 
 ---
@@ -48,7 +49,7 @@ Acesse a simulação diretamente pelo link:
 
 1. Instale o [Node-RED](https://nodered.org/)
 2. Instale o pacote `node-red-dashboard`
-3. Importe o fluxo `node-red-iot.json` no editor do Node-RED
+3. Importe o fluxo `vroom.json` no editor do Node-RED
 4. Inicie o Node-RED e acesse o painel em [http://localhost:1880/ui](http://localhost:1880/ui)
 5. Para a simulação, abra o projeto no Wokwi pelo link acima
 
