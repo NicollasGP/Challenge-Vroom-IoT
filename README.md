@@ -1,4 +1,4 @@
-~~~~# 🚀 Challenge Vroom IoT
+# 🚀 Challenge Vroom IoT
 
 Solução desenvolvida como parte do desafio Vroom IoT, com foco na organização e segurança de pátios de motocicletas da empresa Mottu. A proposta envolve o uso de tags inteligentes simuladas no Wokwi, integração com Node-RED e um dashboard interativo.
 
