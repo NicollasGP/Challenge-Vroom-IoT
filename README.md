@@ -9,6 +9,8 @@ Solução desenvolvida como parte do desafio Vroom IoT, com foco na organizaçã
 - Nicollas Guedes Pontes - RM 556850 / 1TDSB
 - Matheus Oliveira de Luna - RM 555547 / 1TDSA
 
+---
+
 ## 📍 Visão Geral
 O sistema simula o funcionamento de uma tag inteligente com:
 
@@ -49,17 +51,12 @@ Acesse a simulação diretamente pelo link:
 
 ---
 
-## 📑 Descritivo da Solução
-
-*(Adicione aqui o link para o documento explicativo da solução com arquitetura, funcionamento e objetivos)*
-
----
-
 ## 📁 Estrutura do Projeto
 
 - `codigo-fonte-wokwi/` – Pasta com o código da simulação IoT no Wokwi
 - `node-red` – Pasta com o fluxo do Node-RED exportado
 - `dashboard` – Pasta com o link da interface
+- `descritivo-solucao` – Pasta com o PDF da Descrição da Solução
 - `README.md` – Este arquivo
 
 ---
