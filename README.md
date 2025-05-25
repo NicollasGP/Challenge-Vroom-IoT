@@ -5,9 +5,9 @@ Solução desenvolvida como parte do desafio Vroom IoT, com foco na organizaçã
 ---
 
 ## Integrantes
-- Guilherme Guimarães - RM 557074 / 1TDSA
-- Nicollas Guedes Pontes - RM 556850 / 1TDSB
-- Matheus Oliveira de Luna - RM 555547 / 1TDSA
+- Guilherme Guimarães - RM 557074 / 2TDSA
+- Nicollas Guedes Pontes - RM 556850 / 2TDSB
+- Matheus Oliveira de Luna - RM 555547 / 2TDSA
 
 ---
 
