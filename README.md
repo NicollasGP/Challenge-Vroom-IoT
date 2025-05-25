@@ -4,12 +4,17 @@ Solução desenvolvida como parte do desafio Vroom IoT, com foco na organizaçã
 
 ---
 
+## Integrantes
+- Guilherme Guimarães - RM 557074 / 1TDSA
+- Nicollas Guedes Pontes - RM 556850 / 1TDSB
+- Matheus Oliveira de Luna - RM 555547 / 1TDSA
+
 ## 📍 Visão Geral
 O sistema simula o funcionamento de uma tag inteligente com:
 
 - LED RGB que muda de cor a cada clique no botão.
 - Buzzer que emite sons diferentes conforme a cor.
-- Comportamento de desligamento ao pressionar continuamente o botão.
+- Botão que altera o estado da led.
 - Esses eventos são enviados para o Node-RED, onde são processados e exibidos em tempo real em um dashboard interativo.
 
 ## 🛠 Tecnologias Utilizadas
@@ -28,7 +33,7 @@ Acesse a simulação diretamente pelo link:
 ## 📦 Node-RED
 
 - ⚠️ **É necessário instalar o pacote `node-red-dashboard` no Node-RED.**
-- 🗂️ O fluxo está disponível no arquivo `vroom.json` deste repositório.
+- 🗂️ O fluxo está disponível na pasta `node-red` deste repositório.
 - 📊 Acesse o dashboard em:  
   👉 [http://localhost:1880/ui](http://localhost:1880/ui)
 
@@ -52,9 +57,9 @@ Acesse a simulação diretamente pelo link:
 
 ## 📁 Estrutura do Projeto
 
-- `codigo-fonte-wokwi/` – Código da simulação IoT no Wokwi
-- `vroom.json` – Fluxo do Node-RED exportado
-- `dashboard` – Interface
+- `codigo-fonte-wokwi/` – Pasta com o código da simulação IoT no Wokwi
+- `node-red` – Pasta com o fluxo do Node-RED exportado
+- `dashboard` – Pasta com o link da interface
 - `README.md` – Este arquivo
 
 ---
@@ -63,9 +68,9 @@ Acesse a simulação diretamente pelo link:
 
 1. Instale o [Node-RED](https://nodered.org/)
 2. Instale o pacote `node-red-dashboard`
-3. Importe o fluxo `vroom.json` no editor do Node-RED
+3. Importe o fluxo na pasta `node-red` no editor do Node-RED
 4. Inicie o Node-RED e acesse o painel em [http://localhost:1880/ui](http://localhost:1880/ui)
-5. Para a simulação, abra o projeto no Wokwi pelo link acima
+5. Para a simulação, abra o projeto no Wokwi pelo link [https://wokwi.com/projects/431580008684127233](https://wokwi.com/projects/431580008684127233)
 
 ---
 
